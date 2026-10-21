@@ -28,5 +28,11 @@ class person {
         this.adress = adress;
         this.telefonnummer = telefonnummer;
     }
+
+    skrivUt(): void{
+        console.log(this.namn);
+        console.log(this.adress);
+        console.log(this.telefonnummer);
+    }
 }
 
