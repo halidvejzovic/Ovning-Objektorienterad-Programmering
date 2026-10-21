@@ -36,3 +36,10 @@ class person {
     }
 }
 
+const person1 = new person(
+    "Halid",
+    "Kalvshällavägen 42",
+    704564464
+);
+
+person1.skrivUt();
