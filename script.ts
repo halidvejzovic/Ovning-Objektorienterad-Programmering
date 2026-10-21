@@ -19,5 +19,14 @@ class person {
     adress : string;
     telefonnummer: number;
 
+    constructor (
+        namn : string,
+        adress : string,
+        telefonnummer : number
+    ) {
+        this.namn = namn;
+        this.adress = adress;
+        this.telefonnummer = telefonnummer;
+    }
 }
 
