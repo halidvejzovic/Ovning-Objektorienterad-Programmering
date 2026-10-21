@@ -1,0 +1,24 @@
+{
+  "name": "ovning-objektorienterad-programmering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halidvejzovic/Ovning-Objektorienterad-Programmering.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/halidvejzovic/Ovning-Objektorienterad-Programmering/issues"
+  },
+  "homepage": "https://github.com/halidvejzovic/Ovning-Objektorienterad-Programmering#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
