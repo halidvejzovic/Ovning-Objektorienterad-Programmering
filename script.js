@@ -41,7 +41,6 @@ I verkliga projekt händer det ofta att man i stället föredrar att kombinera o
 funktionalitet av mindre delar i stället för att skapa långa arvskedjor. Det är ändå viktigt att förstå arv,
 eftersom det är ett klassiskt OOP-begrepp och förekommer i många kodbaser.
 
-
 */
 class person {
     namn;
@@ -72,9 +71,24 @@ class student extends person {
         console.log(this.program);
     }
 }
+class lärare extends person {
+    ämne;
+    kurs;
+    constructor(namn, adress, telefonnummer, ämne, kurs) {
+        super(namn, adress, telefonnummer);
+        this.ämne = ämne;
+        this.kurs = kurs;
+    }
+    skrivUt() {
+        super.skrivUt();
+        console.log(this.ämne);
+        console.log(this.kurs);
+    }
+}
 const person1 = new person("Halid", "Kalvshällavägen 42", 704564464);
 person1.skrivUt();
 const student1 = new student("Halid", "Kalvshällavägen 42", 704564464, "Klass1a", "Webapp.net");
 student1.skrivUt();
-
+const lärare1 = new lärare("Halid", "Kalvshällavägen 42", 704564464, "ämne", "klass");
+lärare1.skrivUt();
 //# sourceMappingURL=script.js.map
